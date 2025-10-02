@@ -1,3 +1,5 @@
+import Footer from "./Footer";
+import Header from "./Header";
 
 interface Ilayout {
   children: React.ReactNode;
@@ -5,7 +7,9 @@ interface Ilayout {
 function Layout({ children }: Ilayout) {
   return (
     <>
+      <Header/>
       {children}
+      <Footer />
     </>
   );
 }

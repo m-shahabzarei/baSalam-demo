@@ -1,0 +1,103 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "عینک آفتابی تمام مشکی کد 16",
+      "price": 240000,
+      "offerPrice": 187000,
+      "offer": 22,
+      "city": "تهران",
+      "shop": "ایران عینک",
+      "rate": 4.6,
+      "sell": 651,
+      "img": "https://statics.basalam.com/public-43/users/AEEd7/11-16/GNCr3uKoIKTA3l6mjhdMGbrWNqdo8qdGufSPep26XjaELwWRdY.jpg_256X256X70.jpg",
+      "count": 32,
+      "badge": "medal"
+    },
+    {
+      "id": "2",
+      "title": "تلویزیون دوو 55 اینچ مدل DSL-55S6600EU (پس کرایه)",
+      "price": 45000000,
+      "offerPrice": 38700000,
+      "offer": 14,
+      "city": "اصفهان",
+      "shop": "لوازم خانگی و صوتی",
+      "rate": 5,
+      "sell": 1,
+      "img": "https://statics.basalam.com/public-12/users/OZ2WK/09-13/pnico6fWhbBRTUfg1JeWLzlfOTQcQG9MZeSKOmKICw8aj0B5eL.jpg_256X256X70.jpg",
+      "count": 3,
+      "badge": "medal"
+
+    },
+    {
+      "id": "3",
+      "title": "کرم دور چشم شب و روز آرت وینا مدل coenzyme Q10",
+      "price": 1317000,
+      "offerPrice": 421440,
+      "offer": 68,
+      "city": "تهران",
+      "shop": "مه سیما پارس",
+      "rate": 3,
+      "sell": 5,
+      "img": "https://statics.basalam.com/public-111/users/G47aPM/08-03/cnnW91Gv6XhUGqhUmPWGEBmy4hrBBxC9wqnWvRqyWEbbJGetG7.jpg_256X256X70.jpg",
+      "count": 97,
+      "badge": "free"
+    },
+    {
+      "id": "4",
+      "title": "کوله پشتی توریث مدل Sonic-m150030 به همراه جامدادی",
+      "price": 580000,
+      "offerPrice": 295800,
+      "offer": 49,
+      "city": "اصفهان",
+      "shop": "توریث TOURIS",
+      "rate": 2,
+      "sell": 132,
+      "img": "https://statics.basalam.com/public-107/users/aN/07-21/NifV035roE4qTCIVUVeDhoKYQw3WaI8d2bJFHRPcr0RgzRu4IM.jpg_256X256X70.jpg",
+      "count": 480,
+      "badge": "medal"
+    },
+    {
+      "id": "5",
+      "title": "مغز گردو شکسته 1 کیلوگرم دندانه  و شکسته ریز",
+      "price": 650000,
+      "offerPrice": 617500,
+      "offer": 5,
+      "city": "تهران",
+      "shop": "آجیل و خشکبار روستایی",
+      "rate": 4.4,
+      "sell": 7,
+      "img": "https://statics.basalam.com/public-106/users/544mb/07-17/nCp2lBKmkMhs51MSgfEDgpunG9n9yBA0dT0vIZOFXNOEBE8Dqp.jpg_256X256X70.jpg",
+      "count": 957,
+      "badge": "free"
+    },
+    {
+      "id": "6",
+      "title": "چراغ قوه شارژی خورشیدی ویداسی 561S - اصلی وارداتی",
+      "price": 690000,
+      "offerPrice": 538200,
+      "offer": 22,
+      "city": "تهران",
+      "shop": "نوری کالا",
+      "rate": 4.1,
+      "sell": 19,
+      "img": "https://statics.basalam.com/public-33/users/MBLDVN/09-04/zp01cf2F29GOPiqOw8iGcrMZEHRsy4cvm2qnmBIDOCgraxC4oq.jpg_256X256X70.jpg",
+      "count": 982,
+      "badge": "free"
+    },
+    {
+      "id": "7",
+      "title": "کوله پشتی همراه با جامدادی توریث مدل RVS-900",
+      "price": 847000,
+      "offerPrice":398090,
+      "offer": 53,
+      "city": "اصفهان",
+      "shop": "توریث TOURIS",
+      "rate": 4.7,
+      "sell": 22,
+      "img": "https://statics.basalam.com/public-122/users/ZAM58Q/08-30/GSqukpyYtdDW8qV8vc5th4UdljKQ5YAkefxfINWdq4YhU4WfsV.jpg_256X256X70.jpg",
+      "count": 45,
+      "badge": "medal"
+    }
+  ]
+}

@@ -48,7 +48,7 @@ function checkVariant(variant : string ) {
           onClick={moveR}
           className={`
             ${move ? "hidden" : "flex"}
-            text-2xl text-orange-600 absolute bg-white w-10 h-10 rounded-xl text-center justify-center items-center shadow-md cursor-pointer trasnsition ease-in-out duration-500 right-5 top-[2320px] z-50 hover:bg-orange-600 hover:text-white`}
+            text-2xl max-md:hidden text-orange-600 absolute bg-white w-10 h-10 rounded-xl text-center justify-center items-center shadow-md cursor-pointer trasnsition ease-in-out duration-500 right-5 top-[2320px] z-50 hover:bg-orange-600 hover:text-white`}
         >
           ▶
         </div>
@@ -69,7 +69,7 @@ function checkVariant(variant : string ) {
                 <div
           onClick={moveL}
           className={`${move ? "flex" : "hidden"}
-            text-orange-600 text-2xl absolute bg-white w-10 h-10 rounded-xl text-center flex justify-center items-center shadow cursor-pointer trasnsition ease-in-out duration-500 left-5 top-[2320px] hover:bg-orange-600 hover:text-white`}
+            text-orange-600 max-md:hidden text-2xl absolute bg-white w-10 h-10 rounded-xl text-center flex justify-center items-center shadow cursor-pointer trasnsition ease-in-out duration-500 left-5 top-[2320px] hover:bg-orange-600 hover:text-white`}
         >
           ◀
         </div>
@@ -83,7 +83,7 @@ function checkVariant(variant : string ) {
           onClick={moveR}
           className={`
             ${move ? "hidden" : "flex"}
-            text-2xl text-orange-600 absolute bg-white w-10 h-10 rounded-xl text-center justify-center items-center shadow-md cursor-pointer trasnsition ease-in-out duration-500 right-5 top-[3200px] z-50 hover:bg-orange-600 hover:text-white`}
+            text-2xl max-md:hidden text-orange-600 absolute bg-white w-10 h-10 rounded-xl text-center justify-center items-center shadow-md cursor-pointer trasnsition ease-in-out duration-500 right-5 top-[3200px] z-50 hover:bg-orange-600 hover:text-white`}
         >
           ▶
         </div>
@@ -104,7 +104,7 @@ function checkVariant(variant : string ) {
                         <div
           onClick={moveL}
           className={`${move ? "flex" : "hidden"}
-            text-orange-600 text-2xl absolute bg-white w-10 h-10 rounded-xl text-center flex justify-center items-center shadow cursor-pointer trasnsition ease-in-out duration-500 left-5 top-[3200px] hover:bg-orange-600 hover:text-white`}
+            text-orange-600 text-2xl max-md:hidden absolute bg-white w-10 h-10 rounded-xl text-center flex justify-center items-center shadow cursor-pointer trasnsition ease-in-out duration-500 left-5 top-[3200px] hover:bg-orange-600 hover:text-white`}
         >
           ◀
         </div>

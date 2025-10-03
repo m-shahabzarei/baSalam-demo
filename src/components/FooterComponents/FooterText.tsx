@@ -9,7 +9,7 @@ function FooterText() {
   }
 
   return (
-    <div className="w-3/5 h-fit" dir="rtl">
+    <div className="w-3/5 h-fit max-md:w-full max-md:mt-14 max-md:mb-4" dir="rtl">
       <h1 className="text-lg mb-4">باسلام؛یه بازار بی مرز و پر از زندگی!</h1>
       <div className={` ${Status?"" : "line-clamp-4 "}  w-fit text-gray-600`}>
         <p>

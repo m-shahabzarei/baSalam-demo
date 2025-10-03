@@ -1,4 +1,3 @@
-import React from 'react'
 import Container from '../layout/Container'
 import FooterText from './FooterText'
 import Badges from './Badges'

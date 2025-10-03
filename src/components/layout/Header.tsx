@@ -3,6 +3,7 @@ import MegaMenu from "../menu/MegaMenu";
 import Button from "../button/Button";
 import TopHeader from "../topHeader/TopHeader";
 import { useEffect, useState } from "react";
+import MobileHeader from "./mobile/MobileHeader";
 
 function Header() {
 
@@ -34,9 +35,12 @@ function Header() {
 
 
   return (
-    <header className="h-36 flex flex-col justify-between w-full">
+    <header className=" h-36 flex flex-col justify-end w-full">
     <TopHeader/>
-    <nav className={`flex flex-row-reverse mb-5 z-[2000] w-full justify-between px-16 items-center transform transition-transform duration-300
+
+    <MobileHeader />
+
+    <nav className={`max-md:hidden flex flex-row-reverse mb-5 z-[2000] w-full justify-between px-16 items-center transform transition-transform duration-300
       ${showHeader ? "fixed top-0 bg-white z-[2000] h-24" : "relative h-fit"}`}>
       <img src="/public/images/basalam-logo.svg" className="cursor-pointer w-1/12 h-1/12 " />
       <MegaMenu />

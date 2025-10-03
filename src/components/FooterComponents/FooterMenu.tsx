@@ -4,7 +4,7 @@ import IApp from './IApp'
 function FooterMenu() {
   return (
     <Container>
-    <div className='flex flex-row-reverse w-full justify-between'>
+    <div className='max-md:hidden flex flex-row-reverse w-full justify-between'>
         <img className="w-32 h-40" src='https://statics.basalam.com/public/admin/V0YKZ/12-25/YrfyhaNtfRAwDx4oazcmGSS8Ik1Pry6xVBLXaZ2fsDCQ90wgMT.svg' />
         <div className='flex w-full justify-evenly flex-row-reverse'>
             <ul className='flex flex-col h-fit text-right items-end justify-between'>

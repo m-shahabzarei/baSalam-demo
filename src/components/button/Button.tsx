@@ -6,9 +6,10 @@ type TBtn = {
   children: React.ReactNode;
   type: "normal" | "special";
   icon?: "cart" | "user" | "chat" | "shop";
+  onClick?:() => void;
 };
 
-function Button({ variant, children, type, icon }: TBtn) {
+function Button({ variant, children, type, icon , onClick }: TBtn) {
   const [iconClass, setIconClass] = useState("");
 
   useEffect(() => {
@@ -30,7 +31,7 @@ function Button({ variant, children, type, icon }: TBtn) {
   ) => {
     if (type === "normal") {
       return (
-        <div className="flex justify-center text-center items-center flex-col  h-12 cursor-pointer">
+        <div onClick={onClick} className="flex justify-center text-center items-center flex-col  h-12 cursor-pointer">
           <i className={`${iconClass} text-gray-600 text-2xl`}></i>
           <span className="text-xs text-gray-900 mt-1"> {children}</span>
         </div>
@@ -38,7 +39,7 @@ function Button({ variant, children, type, icon }: TBtn) {
     } else {
       if (variant === "primary") {
         return (
-          <button className="border-2 border-orange-500 rounded py-2 px-4 text-orange-500 hover:bg-orange-50 transition delay-0 duration-1000 ease-in-out">
+          <button onClick={onClick} className="border-2 border-orange-500 rounded py-2 px-4 text-orange-500 hover:bg-orange-50 transition delay-0 duration-1000 ease-in-out">
             {children}
             <i className={`${iconClass} px-2`}></i>
           </button>
@@ -46,7 +47,7 @@ function Button({ variant, children, type, icon }: TBtn) {
       } 
       else{
         return(
-          <button className=" w-1/4 border-0 rounded py-2 px-4 text-white bg-orange-500 hover:bg-orange-700 transition delay-0 duration-1000 ease-in-out">
+          <button onClick={onClick} className=" w-1/4 border-0 rounded py-2 px-4 text-white bg-orange-500 hover:bg-orange-700 transition delay-0 duration-1000 ease-in-out">
           {children}
           <i className={`${iconClass}`} ></i>
         </button>

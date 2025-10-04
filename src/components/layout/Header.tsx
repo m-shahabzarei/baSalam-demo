@@ -3,6 +3,7 @@ import MegaMenu from "../menu/MegaMenu";
 import Button from "../button/Button";
 import TopHeader from "../topHeader/TopHeader";
 import { useEffect, useState } from "react";
+import Login from "../modal/Login";
 
 function Header() {
 
@@ -31,9 +32,14 @@ function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const [showLogin, setShowLogin] = useState(false);
 
+  function loginSetter(){
+    setShowLogin(!showLogin)
+  }
 
   return (
+    <>
     <header className="h-36 flex flex-col justify-between w-full">
     <TopHeader/>
     <nav className={`flex flex-row-reverse mb-5 z-[2000] w-full justify-between px-16 items-center transform transition-transform duration-300
@@ -42,11 +48,13 @@ function Header() {
       <MegaMenu />
       <SearchBar />
       <Button icon="chat" type="normal">گفت و گوها</Button>
-      <Button icon="user" type="normal">عضویت | ورود</Button>
+      <Button onClick={loginSetter} icon="user" type="normal">عضویت | ورود</Button>
       <Button icon="cart" type="normal">سبدخرید</Button>
       <Button icon="shop" variant="primary" type="special">ایجاد غرفه</Button>
     </nav>
     </header>
+    {showLogin && <Login onClose={() => setShowLogin(false)} /> }
+    </>
   );
 }
 

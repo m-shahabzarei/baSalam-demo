@@ -9,8 +9,7 @@ Some features of this project:
 - Responsive for all screens
 - Entirely using tailwindCss
 - All parts of the project are in the form of components.
+- you Should run Json Server file
 - ...
-<<<<<<< HEAD
-=======
 
->>>>>>> 45f7aabf3a69ceccb04a91ca8340b38f3c482897
+

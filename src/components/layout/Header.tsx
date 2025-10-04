@@ -36,7 +36,7 @@ function Header() {
   const [showLogin, setShowLogin] = useState(false);
 
   function loginSetter(){
-    setShowLogin(!showLogin)
+    setShowLogin(true)
   }
 
   return (
@@ -46,8 +46,8 @@ function Header() {
 
     <MobileHeader />
 
-    <nav className={`max-md:hidden flex flex-row-reverse mb-5 z-[2000] w-full justify-between px-16 items-center transform transition-transform duration-300
-      ${showHeader ? "fixed top-0 bg-white z-[2000] h-24" : "relative h-fit"}`}>
+    <nav className={`max-md:hidden flex flex-row-reverse mt-20 z-[2000] w-full justify-between px-16 items-center transform transition-transform duration-300
+      ${showHeader ? "fixed top-0 bg-white z-[2000] h-24 mt-0" : "relative h-fit"}`}>
       <img src="/public/images/basalam-logo.svg" className="cursor-pointer w-1/12 h-1/12 " />
       <MegaMenu />
       <SearchBar />
@@ -57,7 +57,7 @@ function Header() {
       <Button icon="shop" variant="primary" type="special">ایجاد غرفه</Button>
     </nav>
     </header>
-    {showLogin && <Login onClose={() => setShowLogin(false)} /> }
+    {showLogin && <Login onClose={() => setShowLogin(false)} />}  
     </>
   );
 }

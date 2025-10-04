@@ -33,7 +33,7 @@ function MobileHeader() {
 
 
   return (
-    <div className="flex justify-center items-center ">
+    <div className="md:hidden flex justify-center items-center ">
     <div className={`${showHeader ? "fixed top-0 w-full" : "w-[95%]"} max-md:flex bg-gray-100 hidden flex-row justify-evenly items-center  h-fit text-right px-1 mb-4 rounded z-50`}><i className='fa-solid fa-camera-retro text-gray-500 text-xl cursor-pointer'></i><input className='bg-gray-100 py-3 pr-3 text-right w-[85%] focus:outline-none font-thin placeholder:font-sans placeholder:font-bold' type='text' placeholder='جست و جو در بازار' /><i className='fa-solid fa-search text-gray-400 text-xl'></i></div>
     
     <nav className="fixed bottom-0 w-full bg-white h-14 z-[2300] py-2">

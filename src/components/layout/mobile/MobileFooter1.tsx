@@ -30,7 +30,7 @@ function MobileFooter1() {
 
   return (
     <Container>
-    <div className=' flex flex-col-reverse w-full justify-center items-center'>
+    <div className='md:hidden max-md:flex flex-col-reverse w-full justify-center items-center'>
         <div className='flex items-center w-full justify-evenly flex-col'>
             <ul className={`flex w-full text-gray-600 flex-col ${Status1 ? "h-fit" : "h-10"} overflow-hidden text-right items-end justify-between border-b-2 border-gray-100`}>
                 <li className='flex w-full flex-row-reverse items-center justify-between' onClick={Status1Setter}><h1 className='mb-4 text-lg'>باسلام</h1>    <i className={`fa-solid ${Status1 ? 'fa-arrow-up' : 'fa-arrow-down'}`}></i> </li>

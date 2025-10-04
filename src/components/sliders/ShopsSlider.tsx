@@ -108,7 +108,7 @@ function ShopsSlider() {
         <div
           onClick={moveL}
           className={`${move ? "flex" : "hidden"}
-            text-orange-600 text-2xl absolute bg-white w-10 h-10 rounded-xl text-center flex justify-center items-center shadow cursor-pointer trasnsition ease-in-out duration-500 left-16 top-48 hover:bg-orange-600 hover:text-white`}
+            text-orange-600 text-2xl absolute bg-white w-10 h-10 rounded-xl text-center flex justify-center items-center shadow cursor-pointer trasnsition ease-in-out duration-500 left-[5%] top-48 hover:bg-orange-600 hover:text-white`}
         >
           ◀
         </div>

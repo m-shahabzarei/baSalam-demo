@@ -19,7 +19,7 @@ function CatSlider() {
           onClick={moveR}
           className={`
             ${move ? "hidden" : "flex"}
-            text-2xl text-orange-600 absolute bg-white w-10 h-10 rounded-xl text-center justify-center items-center shadow-md cursor-pointer trasnsition ease-in-out duration-500 right-5 top-[2060px] hover:bg-orange-600 hover:text-white`}
+            text-2xl max-md:hidden text-orange-600 absolute bg-white w-10 h-10 rounded-xl text-center justify-center items-center shadow-md cursor-pointer trasnsition ease-in-out duration-500 right-5 top-[2060px] hover:bg-orange-600 hover:text-white`}
         >
           ▶
         </div>
@@ -42,7 +42,7 @@ function CatSlider() {
         <div
           onClick={moveL}
           className={`${move ? "flex" : "hidden"}
-            text-2xl text-orange-600 absolute bg-white w-10 h-10 rounded-xl text-center justify-center items-center shadow-md cursor-pointer trasnsition ease-in-out duration-500 left-5 top-[2060px] hover:bg-orange-600 hover:text-white`}
+            text-2xl max-md:hidden text-orange-600 absolute bg-white w-10 h-10 rounded-xl text-center justify-center items-center shadow-md cursor-pointer trasnsition ease-in-out duration-500 left-5 top-[2060px] hover:bg-orange-600 hover:text-white`}
         >
           ◀
         </div>

@@ -36,22 +36,22 @@ const Countdown: React.FC = () => {
   }, [targetDate]);
 
   return (
-    <div className="bg-[url(src/assets/images/top-header.gif)] bg-cover bg-center h-14 p-3 flex items-center w-full ">
-      <div className="bg-white rounded-full flex justify-evenly w-44 sm:h-10 sm:ml-16 items-center xs:h-8">
-        <div className="pt-1 bg-orange-600 xs:w-[4vw] xs:h-[4vw] lg:w-[2vw] lg:h-[2vw] rounded text-white text-center flex items-center justify-center">
+    <div className="bg-[url(src/assets/images/top-header.gif)] bg-cover bg-center h-14 p-3 absolute top-0 flex items-center w-full ">
+      <div className="max-md:hidden bg-white rounded-full flex justify-evenly w-44 sm:h-10 sm:ml-16 items-center xs:h-8">
+        <div className="pt-1 bg-orange-600 w-[2vw] h-[2vw] rounded text-white text-center flex items-center justify-center">
           {timeLeft.days}
         </div>
         <span className="text-orange-600 text-sm 2xl:-m-2 lg:-m-5">:</span>
-        <div className="pt-1 bg-orange-600 xs:w-[4vw] xs:h-[4vw] lg:w-[2vw] lg:h-[2vw] rounded text-white text-center flex items-center justify-center ">
+        <div className="pt-1 bg-orange-600 w-[2vw] h-[2vw]  rounded text-white text-center flex items-center justify-center ">
           {timeLeft.hours}
         </div>
         <span className="text-orange-600 text-sm 2xl:-m-2 lg:-m-5">:</span>
-        <div className="pt-1 bg-orange-600 xs:w-[4vw] xs:h-[4vw] lg:w-[2vw] lg:h-[2vw] rounded text-white text-center flex items-center justify-center">
+        <div className="pt-1 bg-orange-600 w-[2vw] h-[2vw] rounded text-white text-center flex items-center justify-center">
           {timeLeft.minutes}
         </div>
         <span className="text-orange-600 text-sm 2xl:-m-2 lg:-m-5">:</span>
 
-        <div className="pt-1 bg-orange-600 xs:w-[10%] xs:h-[4vw] lg:w-[2vw] lg:h-[2vw] rounded text-white text-center flex items-center justify-center ">
+        <div className="pt-1 bg-orange-600 w-[2vw] h-[2vw] rounded text-white text-center flex items-center justify-center ">
           {timeLeft.seconds}
         </div>
       </div>

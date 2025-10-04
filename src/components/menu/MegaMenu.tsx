@@ -14,8 +14,8 @@ const MegaMenu: React.FC = () => {
 
   return (
     <div className="group z-50">
-      <div className="text-sm cursor-pointer transition ease-in-out duration-500 hover:text-orange-500 ">
-        دسته بندی ها<i className="fa-solid fa-bars"></i>
+      <div className="max-lg:text-[1.4vw] text-[15px] mx-2 cursor-pointer flex justify-center items-center transition ease-in-out duration-500 hover:text-orange-500 ">
+        دسته بندی ها<i className="fa-solid fa-bars mx-1"></i>
       </div>
 
       <div

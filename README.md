@@ -10,3 +10,7 @@ Some features of this project:
 - Entirely using tailwindCss
 - All parts of the project are in the form of components.
 - ...
+<<<<<<< HEAD
+=======
+
+>>>>>>> 45f7aabf3a69ceccb04a91ca8340b38f3c482897

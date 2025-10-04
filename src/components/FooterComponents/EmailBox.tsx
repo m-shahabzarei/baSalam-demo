@@ -2,7 +2,7 @@ import Button from '../button/Button'
 
 function EmailBox() {
   return (
-    <div className=' w-full flex flex-col justify-between pr-8'>
+    <div className=' w-full flex flex-col justify-between max-md:pr-0 pr-8'>
         <h1 dir='rtl'>ایمیلت رو وارد کن تا از تخفیف ها باخبر بشی</h1>
         <div className='flex flex-row justify-end mt-5 w-full'>
             <Button type='special' variant='secondary' >ارسال</Button>

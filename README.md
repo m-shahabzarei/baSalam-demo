@@ -13,3 +13,17 @@ Some features of this project:
 - ...
 
 
+
+## نصب و راه‌اندازی
+
+1. نصب وابستگی‌ها:
+
+```bash
+npm install
+```
+
+2. اجرای برنامه در حالت توسعه:
+
+```bash
+npm run dev
+```
